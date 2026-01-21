@@ -1,0 +1,26 @@
+# 🕹️ OverTheWire Bandit – Level 9 → Level 10
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in the file `data.txt`
+in one of the few **human-readable strings**, preceded by several
+`=` characters.
+
+---
+
+## 🔍 Explanation
+This level introduces **extracting readable strings** from a file
+that may contain non-text data.  
+The password can be identified by locating readable text that is
+**prefixed with multiple `=` characters**.
+
+---
+
+## 🧪 Solution Summary
+- Analyze `data.txt` for human-readable strings  
+- Identify strings preceded by multiple `=` characters  
+- Extract the correct string to obtain the password  
+
+---
+Next Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
