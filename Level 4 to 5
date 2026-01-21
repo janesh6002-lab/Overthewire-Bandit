@@ -1,0 +1,27 @@
+# 🕹️ OverTheWire Bandit – Level 4 → Level 5
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in the **only human-readable file**
+inside the `inhere` directory.
+
+💡 **Tip:** If your terminal output becomes unreadable, use the `reset` command.
+
+---
+
+## 🔍 Explanation
+The `inhere` directory contains multiple files, but only **one file**
+is human-readable.  
+Identifying readable files helps filter out binary or non-text files.
+
+---
+
+## 🧪 Solution Summary
+- Navigate to the `inhere` directory  
+- Identify the human-readable file  
+- Read the file to obtain the password  
+
+---
+Next Password:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
