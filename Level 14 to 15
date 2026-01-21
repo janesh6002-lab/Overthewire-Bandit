@@ -1,0 +1,43 @@
+# 🕹️ OverTheWire Bandit – Level 14 → Level 15
+
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level can be retrieved by **submitting the current
+level’s password** to **port 30000 on localhost**.
+
+---
+
+## 🔍 Explanation
+In this level, a **service is running locally** on the machine and is
+listening on **port 30000**.
+
+The service expects the **password of the current level** as input.
+If the correct password is provided, the service responds with the
+**password for the next level**.
+
+This demonstrates how services can communicate over network ports,
+even on the same machine.
+
+---
+
+## 🧪 Solution Summary
+- Connect to a service running on **localhost**  
+- Send the current level password as input  
+- Receive and read the response from the service  
+
+---
+
+## 🔐 Concept Learned
+- Basics of network communication  
+- Interacting with services via open ports  
+- Understanding localhost-based services  
+
+---
+
+## 🛡️ Security Insight
+Services listening on open ports can leak sensitive information if
+they do not properly validate or restrict access.
+Next Password:8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
