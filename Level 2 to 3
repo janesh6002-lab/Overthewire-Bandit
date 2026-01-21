@@ -1,0 +1,27 @@
+# 🕹️ OverTheWire Bandit – Level 2 → Level 3
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in a file called  
+`--spaces in this filename--`
+located in the **home directory**.
+
+---
+
+## 🔍 Explanation
+This level introduces a filename containing **spaces**.  
+Linux treats spaces as separators, so filenames with spaces must be
+handled carefully using **quotes** or **escaped spaces** to be read
+correctly.
+
+---
+
+## 🧪 Solution Summary
+- Navigate to the home directory  
+- Identify the file with spaces in its name  
+- Read the file by properly handling the spaces  
+
+---
+Next Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
