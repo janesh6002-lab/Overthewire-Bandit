@@ -6,9 +6,6 @@ Read a file with a **special filename** to retrieve the password for the next le
 
 ---
 
-## 🔑 Credentials Provided
-- **Username:** bandit1  
-- **Password:** ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If  
 
 ---
 
@@ -33,5 +30,5 @@ ls
 Read the file using:
 
 cat ./-
-Next Level Password (Bandit Level 2)
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Password obtained is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
