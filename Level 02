@@ -1,0 +1,27 @@
+# 🕹️ OverTheWire Bandit – Level 1 → Level 2
+
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in a file called `-`
+located in the **home directory**.
+
+---
+
+## 🔍 Explanation
+The filename `-` is treated as **standard input (stdin)** by many
+Linux commands. To access it correctly, a **relative path** must be used.
+
+---
+
+## 🧪 Solution Summary
+- Navigate to the home directory  
+- Identify the file named `-`  
+- Read it using a relative path  
+
+---
+
+## 🔑 Next Level Password 
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
