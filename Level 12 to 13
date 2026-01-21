@@ -1,0 +1,35 @@
+# 🕹️ OverTheWire Bandit – Level 12 → Level 13
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in the file `data.txt`,
+which is a **hexdump of a file that has been repeatedly compressed**.
+
+For this level, it may be useful to create a working directory under
+`/tmp` to safely extract and process the file contents.
+
+---
+
+## 🔍 Explanation
+This level involves **multiple layers of encoding and compression**.
+The file must first be converted back from a hexdump into its original
+binary form.  
+After that, the file needs to be **identified and decompressed repeatedly**
+until the final readable password file is revealed.
+
+Using a temporary working directory helps avoid clutter and accidental
+file overwrites.
+
+---
+
+## 🧪 Solution Summary
+- Create a temporary working directory  
+- Copy the `data.txt` file into it  
+- Convert the hexdump back to binary  
+- Repeatedly identify and decompress the file  
+- Read the final file to obtain the password  
+
+---
+Next Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
