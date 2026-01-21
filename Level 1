@@ -1,0 +1,37 @@
+# 🕹️ OverTheWire Bandit – Level 2
+
+
+## 🎯 Objective
+Read a file with a **special filename** to retrieve the password for the next level.
+
+---
+
+## 🔑 Credentials Provided
+- **Username:** bandit1  
+- **Password:** ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If  
+
+---
+
+## 🧭 Quick Action Summary
+1. Login as **bandit1**  
+2. Handle special filename  
+3. Read password file  
+
+---
+
+## 🔍 Method of Solve
+The password is stored in a file named `-`.  
+
+Since `-` is treated as **stdin**, it must be accessed using a **relative path** (`./-`).
+
+---
+
+## 🧪 Steps Followed
+1. List files in the directory:  
+
+ls
+Read the file using:
+
+cat ./-
+Next Level Password (Bandit Level 2)
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
