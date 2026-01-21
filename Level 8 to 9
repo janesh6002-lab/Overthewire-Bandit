@@ -1,0 +1,27 @@
+# 🕹️ OverTheWire Bandit – Level 8 → Level 9
+
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in the file `data.txt`
+and is the **only line of text that occurs exactly once**.
+
+---
+
+## 🔍 Explanation
+This level focuses on **identifying unique lines** in a text file.  
+By processing and comparing repeated lines, the single unique entry
+can be isolated and used as the password.
+
+---
+
+## 🧪 Solution Summary
+- Read the contents of `data.txt`  
+- Analyze repeated and non-repeated lines  
+- Identify the line that appears **only once**  
+- Use that line as the password  
+
+---
+Next Password:4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
