@@ -1,0 +1,31 @@
+# 🕹️ OverTheWire Bandit – Level 6 → Level 7
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored **somewhere on the server**
+and has all of the following properties:
+
+- Owned by user **bandit7**  
+- Owned by group **bandit6**  
+- Exactly **33 bytes** in size  
+
+---
+
+## 🔍 Explanation
+This level focuses on **searching files across the entire system**
+using **ownership and size constraints**.  
+Filtering files by user, group, and file size helps narrow down the
+correct password file.
+
+---
+
+## 🧪 Solution Summary
+- Search the server for files matching the given ownership  
+- Filter results by file size  
+- Identify the correct file  
+- Read the file to obtain the password  
+
+---
+Next Password:morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
