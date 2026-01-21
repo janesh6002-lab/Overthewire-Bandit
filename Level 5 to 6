@@ -1,0 +1,31 @@
+# 🕹️ OverTheWire Bandit – Level 5 → Level 6
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in a file somewhere under the
+`inhere` directory and has all of the following properties:
+
+- Human-readable  
+- Exactly **1033 bytes** in size  
+- **Not executable**
+
+---
+
+## 🔍 Explanation
+This level requires filtering files based on **multiple conditions**.
+Only one file inside the directory hierarchy matches **all given properties**.
+Identifying files by size, type, and permissions helps narrow down the correct file.
+
+---
+
+## 🧪 Solution Summary
+- Search through the `inhere` directory  
+- Filter files by size  
+- Ensure the file is human-readable  
+- Confirm the file is not executable  
+- Read the file to obtain the password  
+
+---
+Next Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
