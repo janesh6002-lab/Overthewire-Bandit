@@ -1,0 +1,26 @@
+# 🕹️ OverTheWire Bandit – Level 10 → Level 11
+
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in the file `data.txt`,
+which contains **Base64-encoded data**.
+
+---
+
+## 🔍 Explanation
+This level focuses on **decoding Base64 data** to reveal readable text.  
+Once decoded, the original content of the file reveals the password
+for the next level.
+
+---
+
+## 🧪 Solution Summary
+- Identify that the file contains Base64-encoded content  
+- Decode the data correctly  
+- Read the decoded output to obtain the password  
+
+---
+Next Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
