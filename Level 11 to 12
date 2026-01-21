@@ -1,0 +1,28 @@
+# 🕹️ OverTheWire Bandit – Level 11 → Level 12
+
+![Bandit](https://img.shields.io/badge/OverTheWire-Bandit-blue)
+![Linux](https://img.shields.io/badge/Linux-Terminal-green)
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in the file `data.txt`,
+where all **lowercase (a–z)** and **uppercase (A–Z)** letters have been
+**rotated by 13 positions**.
+
+---
+
+## 🔍 Explanation
+This level uses the **ROT13 cipher**, a simple letter substitution method.
+Each letter is replaced by the letter **13 positions ahead** in the alphabet.
+Decoding the transformed text reveals the original password.
+
+---
+
+## 🧪 Solution Summary
+- Identify that the file uses a ROT13 cipher  
+- Apply the correct letter rotation  
+- Decode the text to reveal the password  
+
+---
+Next Password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
