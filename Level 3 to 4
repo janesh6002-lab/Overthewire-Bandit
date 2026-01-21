@@ -1,0 +1,23 @@
+# 🕹️ OverTheWire Bandit – Level 3 → Level 4
+
+
+## 🎯 Level Goal
+The password for the next level is stored in a **hidden file**
+inside the `inhere` directory.
+
+---
+
+## 🔍 Explanation
+Hidden files in Linux start with a **dot (`.`)** and are not shown
+by default when listing files. Special options are required to
+display and access hidden files.
+
+---
+
+## 🧪 Solution Summary
+- Navigate to the `inhere` directory  
+- List hidden files  
+- Read the hidden file to obtain the password  
+
+---
+Next Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
