@@ -1,0 +1,33 @@
+# 🕹️ OverTheWire Bandit – Level 13 → Level 14
+
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in  
+`/etc/bandit_pass/bandit14` and can only be read by **user bandit14**.
+
+For this level, you do **not** get the password directly.  
+Instead, you are provided with a **private SSH key** that must be used
+to log into the next level.
+
+---
+
+## 🔍 Explanation
+Normal password-based login is not possible for this level.
+Instead, authentication is done using **SSH key-based login**.
+
+The private key acts as a secure credential that allows access to the
+`bandit14` account. Proper file permissions are required for the key,
+otherwise SSH will refuse to use it.
+
+---
+
+## 🧪 Solution Summary
+- Locate the provided private SSH key  
+- Ensure the key has correct permissions  
+- Use the key to log in as `bandit14` via SSH  
+- Access the restricted password file as the correct user  
+
+---
+Next Password:MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
