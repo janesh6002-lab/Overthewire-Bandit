@@ -1,0 +1,52 @@
+# 🕹️ OverTheWire Bandit – Level 27 → Level 28
+
+
+## 🎯 Level Goal
+A **Git repository** is hosted remotely and must be accessed using SSH.
+
+The repository is available at:
+`ssh://bandit27-git@bandit.labs.overthewire.org/home/bandit27-git/repo`
+on **port 2220**.
+
+The password for `bandit27-git` is the same as the password for
+**bandit27**.
+
+The task is to **clone the repository locally** and find the
+password for the next level.
+
+---
+
+## 🔍 Explanation
+This level introduces interaction with **remote Git repositories**
+over **SSH**.
+
+Once the repository is cloned to a local machine, its contents can be
+examined to locate the password stored inside the project files.
+
+This emphasizes the importance of reviewing source code and repository
+contents for sensitive information.
+
+---
+
+## 🧪 Solution Summary
+- Use the bandit27 password for authentication  
+- Clone the remote Git repository locally  
+- Inspect the repository contents  
+- Locate the password for the next level  
+
+---
+
+## 🔐 Concept Learned
+- Cloning Git repositories over SSH  
+- Using SSH authentication with Git  
+- Reviewing repository contents for secrets  
+
+---
+
+## 🛡️ Security Insight
+Storing passwords or secrets inside repositories is dangerous,
+especially if repository access is not tightly controlled.
+Password: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+Next Level Password
+
+4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
