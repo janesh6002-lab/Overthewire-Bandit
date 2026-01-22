@@ -1,0 +1,44 @@
+# 🕹️ OverTheWire Bandit – Level 18 → Level 19
+
+---
+
+## 🎯 Level Goal
+The password for the next level is stored in a file named `readme`
+in the **home directory**.
+
+However, the `.bashrc` file has been modified to **automatically log
+you out** when you connect using SSH.
+
+---
+
+## 🔍 Explanation
+Normally, SSH opens an interactive shell after login.
+In this level, the modified `.bashrc` forces an immediate logout,
+preventing normal command execution.
+
+To solve this, commands must be executed **non-interactively**
+during the SSH connection, allowing the file to be read
+before the logout occurs.
+
+---
+
+## 🧪 Solution Summary
+- Bypass the interactive shell  
+- Execute a command directly during SSH login  
+- Read the `readme` file  
+- Retrieve the next level password  
+
+---
+
+## 🔐 Concept Learned
+- Difference between interactive and non-interactive shells  
+- How shell startup files affect login behavior  
+- Executing commands remotely via SSH  
+
+---
+
+## 🛡️ Security Insight
+Improper shell configuration can disrupt access,
+but attackers may still bypass restrictions if command
+execution is allowed during login.
+Next Password: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
