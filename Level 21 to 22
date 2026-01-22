@@ -1,0 +1,44 @@
+# 🕹️ OverTheWire Bandit – Level 21 → Level 22
+
+---
+
+## 🎯 Level Goal
+A program is being executed automatically at regular intervals using
+**cron**, the time-based job scheduler.
+
+The task is to inspect the configuration files in
+`/etc/cron.d/` and determine **which command is being run**.
+
+---
+
+## 🔍 Explanation
+Cron is used in Linux systems to schedule tasks that run automatically
+in the background.
+
+Configuration files inside `/etc/cron.d/` define jobs that are executed
+at specific times or intervals, often with elevated privileges.
+
+By reviewing these files, it is possible to identify scripts or commands
+that handle sensitive data, such as passwords for the next level.
+
+---
+
+## 🧪 Solution Summary
+- Explore the cron configuration directory  
+- Identify scheduled jobs  
+- Analyze the command being executed  
+- Locate how the next level’s password is handled  
+
+---
+
+## 🔐 Concept Learned
+- Understanding cron and scheduled tasks  
+- Reading system-wide cron configurations  
+- Identifying automated privilege-based executions  
+
+---
+
+## 🛡️ Security Insight
+Misconfigured cron jobs can unintentionally expose sensitive
+information or allow privilege escalation if not properly secured.
+Next Password: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
