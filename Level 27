@@ -1,0 +1,45 @@
+# 🕹️ OverTheWire Bandit – Level 26 → Level 27
+
+
+---
+
+## 🎯 Level Goal
+After successfully obtaining a full shell, the task is to quickly
+retrieve the **password for bandit27**.
+
+---
+
+## 🔍 Explanation
+Now that the restricted shell has been escaped, normal command
+execution is possible.
+
+The password for the next level is stored in the usual location
+and can be accessed once proper shell access is available.
+
+This level serves as a confirmation that the shell escape
+was successful.
+
+---
+
+## 🧪 Solution Summary
+- Verify full shell access  
+- Locate the password file  
+- Read and retrieve the password for the next level  
+
+---
+
+## 🔐 Concept Learned
+- Importance of shell access  
+- Using gained privileges effectively  
+- Transitioning from restricted to full environments  
+
+---
+
+## 🛡️ Security Insight
+Once shell restrictions are bypassed, an attacker can quickly
+access sensitive information, highlighting the importance of
+secure user environments.
+Password: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+ Next Level Password
+
+Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
