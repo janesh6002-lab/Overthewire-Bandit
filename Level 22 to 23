@@ -1,0 +1,46 @@
+# 🕹️ OverTheWire Bandit – Level 22 → Level 23
+
+
+---
+
+## 🎯 Level Goal
+A program is being executed automatically at regular intervals using
+**cron**, the time-based job scheduler.
+
+The task is to inspect the configuration files in
+`/etc/cron.d/` and determine **which command is being run**.
+
+---
+
+## 🔍 Explanation
+This level focuses on understanding **cron job scripts**.
+
+The cron configuration points to a shell script that is intentionally
+written to be easy to read. By carefully reviewing the script logic,
+it is possible to determine where and how the password for the next
+level is handled.
+
+If the script behavior is unclear, executing it can reveal helpful
+debug information that explains its operation.
+
+---
+
+## 🧪 Solution Summary
+- Examine cron job configurations  
+- Locate the referenced shell script  
+- Analyze the script’s logic  
+- Identify how the next level’s password is generated or stored  
+
+---
+
+## 🔐 Concept Learned
+- Reading and understanding shell scripts  
+- Debugging script behavior  
+- Cron-based automation analysis  
+
+---
+
+## 🛡️ Security Insight
+Readable but insecure scripts executed by cron can expose sensitive
+data if access controls are not properly enforced.
+Next Password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
