@@ -1,0 +1,48 @@
+# 🕹️ OverTheWire Bandit – Level 19 → Level 20
+
+
+---
+
+## 🎯 Level Goal
+To gain access to the next level, a **setuid binary** located in the
+home directory must be used.
+
+After correctly using the binary, the password for the next level
+can be found in the usual location:
+`/etc/bandit_pass/bandit20`.
+
+---
+
+## 🔍 Explanation
+A **setuid binary** runs with the permissions of its owner instead of
+the user who executes it.
+
+In this level, the binary is owned by the next user. When executed
+correctly, it temporarily grants higher privileges, allowing access
+to files that are normally restricted.
+
+Running the binary **without arguments** provides guidance on how it
+should be used.
+
+---
+
+## 🧪 Solution Summary
+- Locate the setuid binary in the home directory  
+- Execute it to understand its usage  
+- Use it correctly to gain elevated privileges  
+- Read the restricted password file  
+
+---
+
+## 🔐 Concept Learned
+- Understanding setuid permissions  
+- Privilege escalation via binaries  
+- Controlled access to protected files  
+
+---
+
+## 🛡️ Security Insight
+Improperly configured setuid binaries can be dangerous, as they may
+allow users to gain unintended elevated access.
+Next Password: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
