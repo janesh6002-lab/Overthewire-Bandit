@@ -1,0 +1,56 @@
+# 🕹️ OverTheWire Bandit – Level 31 → Level 32
+
+
+---
+
+## 🎯 Level Goal
+A **Git repository** is hosted remotely and must be accessed using SSH.
+
+The repository is available at:
+`ssh://bandit31-git@bandit.labs.overthewire.org/home/bandit31-git/repo`
+on **port 2220**.
+
+The password for `bandit31-git` is the same as the password for
+**bandit31**.
+
+The task is to **clone the repository locally** and find the
+password for the next level.
+
+---
+
+## 🔍 Explanation
+This level focuses on **interacting with a Git repository that enforces
+specific rules**.
+
+The repository may reject normal commits unless certain conditions
+are met. By carefully reading repository instructions and understanding
+Git behavior, it becomes possible to store or retrieve the required
+information.
+
+This level emphasizes attention to detail and correct Git usage.
+
+---
+
+## 🧪 Solution Summary
+- Authenticate using the bandit31 password  
+- Clone the remote Git repository locally  
+- Review repository rules and instructions  
+- Perform the required Git action  
+- Retrieve the password for the next level  
+
+---
+
+## 🔐 Concept Learned
+- Git repository rules and constraints  
+- Controlled commits and validations  
+- Reading and following repository instructions  
+
+---
+
+## 🛡️ Security Insight
+Repositories that enforce strict rules can prevent accidental leaks,
+but misconfigurations may still allow sensitive data exposure.
+Password: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+ Next Level Password
+
+tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
