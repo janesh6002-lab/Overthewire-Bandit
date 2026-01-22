@@ -1,0 +1,42 @@
+# 🕹️ OverTheWire Bandit – Level 15 → Level 16
+---
+
+## 🎯 Level Goal
+The password for the next level can be retrieved by submitting the
+current level’s password to **port 30001 on localhost** using
+**SSL/TLS encryption**.
+
+---
+
+## 🔍 Explanation
+Unlike the previous level, this service requires a **secure encrypted
+connection** using **SSL/TLS**.
+
+A normal plaintext connection will not work. The password must be sent
+through a **TLS-encrypted channel**, and if the password is correct,
+the service responds with the password for the next level.
+
+Messages such as **DONE**, **RENEGOTIATING**, or **KEYUPDATE** are normal
+TLS handshake behavior and do not indicate failure.
+
+---
+
+## 🧪 Solution Summary
+- Connect to a local service on **port 30001**  
+- Use **SSL/TLS encryption** for the connection  
+- Submit the current level password securely  
+- Receive the password for the next level  
+
+---
+
+## 🔐 Concept Learned
+- SSL/TLS encrypted communication  
+- Difference between plaintext and secure connections  
+- Interacting with encrypted network services  
+
+---
+
+## 🛡️ Security Insight
+Encrypted services protect sensitive information from being intercepted,
+highlighting the importance of TLS in secure network communication.
+Next Password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
