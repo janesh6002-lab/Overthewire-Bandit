@@ -1,0 +1,47 @@
+# 🕹️ OverTheWire Bandit – Level 23 → Level 24
+
+
+---
+
+## 🎯 Level Goal
+A program is being executed automatically at regular intervals using
+**cron**, the time-based job scheduler.
+
+To solve this level, you must analyze the cron configuration in
+`/etc/cron.d/` and create your **own shell script** that is executed
+by the scheduled job.
+
+---
+
+## 🔍 Explanation
+This level introduces writing a **custom shell script**.
+
+The cron job executes scripts placed in a specific directory with
+certain permissions. When your script runs, it can access data that
+is normally restricted.
+
+The script is automatically **removed after execution**, so keeping
+a backup copy is important while testing.
+
+---
+
+## 🧪 Solution Summary
+- Inspect the cron job configuration  
+- Identify where executable scripts are picked up  
+- Create a custom shell script  
+- Ensure correct permissions  
+- Let cron execute the script and retrieve the password  
+
+---
+
+## 🔐 Concept Learned
+- Writing basic shell scripts  
+- Cron job execution flow  
+- File permissions and automation  
+
+---
+
+## 🛡️ Security Insight
+Automatically executing user-controlled scripts with elevated
+privileges is dangerous and can easily lead to credential exposure.
+Next Password: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
