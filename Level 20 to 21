@@ -1,0 +1,46 @@
+# 🕹️ OverTheWire Bandit – Level 20 → Level 21
+
+---
+
+## 🎯 Level Goal
+A **setuid binary** in the home directory connects to **localhost**
+on a port specified as a command-line argument.
+
+It reads a line of input from the connection and compares it with
+the **previous level’s password (bandit20)**.
+If the password is correct, it sends back the
+**password for bandit21**.
+
+---
+
+## 🔍 Explanation
+This level combines **setuid binaries** with **network communication**.
+
+The binary runs with elevated privileges and connects to a local
+network service. It expects the **current level password** to be
+sent through that connection.
+
+To solve this level, a local service must be created that sends the
+correct password to the binary when it connects.
+
+---
+
+## 🧪 Solution Summary
+- Identify the behavior of the setuid binary  
+- Set up a local network listener  
+- Provide the correct password to the binary  
+- Receive the password for the next level  
+
+---
+
+## 🔐 Concept Learned
+- Interaction between setuid binaries and network services  
+- Localhost port communication  
+- Secure password verification mechanisms  
+
+---
+
+## 🛡️ Security Insight
+Setuid programs that rely on network input can be risky if inputs
+are not properly validated, potentially leading to privilege misuse.
+Next Password:EeoULMCra2q0dSkYj561DX7s1CpBuOBt
