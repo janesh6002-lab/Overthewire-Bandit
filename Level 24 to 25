@@ -1,0 +1,49 @@
+# 🕹️ OverTheWire Bandit – Level 24 → Level 25
+
+
+---
+
+## 🎯 Level Goal
+A daemon is listening on **port 30002** and will provide the password
+for **bandit25** if given:
+- The correct **bandit24 password**
+- A **secret 4-digit numeric pincode**
+
+The pincode cannot be retrieved directly and must be found by
+trying **all possible combinations (0000–9999)**.
+
+---
+
+## 🔍 Explanation
+This level introduces the concept of **brute-force attacks**.
+
+The service validates both the password and a 4-digit PIN.
+Since there is no hint or shortcut for the PIN, every possible
+combination must be tested.
+
+The service allows reuse of the **same connection**, making it
+efficient to automate the attempts instead of reconnecting
+for each guess.
+
+---
+
+## 🧪 Solution Summary
+- Connect to the service on **port 30002**  
+- Submit the current level password  
+- Systematically try all 4-digit PIN combinations  
+- Identify the correct PIN  
+- Receive the password for the next level  
+
+---
+
+## 🔐 Concept Learned
+- Brute-force techniques  
+- Automating repetitive authentication attempts  
+- Efficient interaction with network services  
+
+---
+
+## 🛡️ Security Insight
+Weak numeric PINs are highly vulnerable to brute-force attacks,
+especially when no rate-limiting or lockout mechanisms are enforced.
+Next Password:iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
