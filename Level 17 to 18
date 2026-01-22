@@ -1,0 +1,45 @@
+# 🕹️ OverTheWire Bandit – Level 17 → Level 18
+
+
+## 🎯 Level Goal
+There are two files in the home directory:
+`passwords.old` and `passwords.new`.
+
+The password for the next level is located in
+`passwords.new` and is the **only line that differs**
+between the two files.
+
+---
+
+## 🔍 Explanation
+Both files appear almost identical, but one line has been
+modified in `passwords.new`.
+
+By comparing the contents of the two files line by line,
+the changed entry can be identified, which reveals the
+password for the next level.
+
+This level focuses on detecting **differences between files**.
+
+---
+
+## 🧪 Solution Summary
+- Locate both password files  
+- Compare their contents  
+- Identify the modified line  
+- Extract the new password  
+
+---
+
+## 🔐 Concept Learned
+- File comparison techniques  
+- Identifying changes between versions of files  
+- Managing and reviewing sensitive data  
+
+---
+
+## 🛡️ Security Insight
+Storing passwords in versioned or compared files can
+accidentally expose credentials if differences are not
+carefully controlled.
+Next Password: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
